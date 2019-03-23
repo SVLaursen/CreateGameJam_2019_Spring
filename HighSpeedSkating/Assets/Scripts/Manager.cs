@@ -12,6 +12,7 @@ public class Manager : MonoBehaviour
     private Vector2 currentPosition;
 
     private float lenghtTravelled;
+    private bool showGameOver;
 
     public Canvas pauseScreen;
     public Canvas gameOverScreen;
@@ -78,13 +79,15 @@ public class Manager : MonoBehaviour
             currentPosition = player.transform.position;
             lenghtTravelled = Mathf.Round(currentPosition.x - startPosition.x);
             speedText.text = player.speed.ToString("0.00") + "km/h";
-            lenghtText.text = lenghtTravelled + "M";
+            lenghtText.text = lenghtTravelled / 10 + "M";
         }
         else
         {
+            StartCoroutine(Wait(2));
+            if (!showGameOver) return;
             gameOverScreen.enabled = true;
             gameOverSpeed.text = player.speed.ToString("0.00") + "km/h";
-            gameOverLength.text = lenghtText.text = lenghtTravelled + "M";
+            gameOverLength.text = lenghtText.text = lenghtTravelled / 10 + "M";
         }
     }
 
@@ -101,5 +104,11 @@ public class Manager : MonoBehaviour
     public void ToMainMenu()
     {
         SceneManager.LoadScene(0);
+    }
+
+    private IEnumerator Wait(int seconds)
+    {
+        yield return new WaitForSeconds(seconds);
+        showGameOver = true;
     }
 }

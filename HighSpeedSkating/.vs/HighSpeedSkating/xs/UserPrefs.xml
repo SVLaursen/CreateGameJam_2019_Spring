@@ -1,11 +1,12 @@
 ﻿<Properties StartupConfiguration="{B8187957-6530-53B8-1C37-428318429B94}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CameraController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CharacterAnimations.cs">
     <Files>
       <File FileName="Assets/Scripts/CameraShaker.cs" Line="95" Column="6" />
-      <File FileName="Assets/Scripts/CameraController.cs" Line="38" Column="6" />
-      <File FileName="Assets/Scripts/PlayerController.cs" Line="85" Column="55" />
+      <File FileName="Assets/Scripts/CameraController.cs" Line="24" Column="18" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="161" Column="38" />
       <File FileName="Assets/Scripts/Manager.cs" Line="70" Column="46" />
       <File FileName="Assets/Scripts/MainMenu.cs" Line="21" Column="24" />
+      <File FileName="Assets/Scripts/CharacterAnimations.cs" Line="7" Column="17" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,7 +14,7 @@
           <Node name="HighSpeedSkating" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="CameraController.cs" selected="True" />
+                <Node name="CharacterAnimations.cs" selected="True" />
               </Node>
             </Node>
           </Node>

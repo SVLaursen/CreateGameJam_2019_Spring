@@ -7,6 +7,8 @@ public class PlayerController : MonoBehaviour
     public float speed;
     public PlayerInfo playerInfo;
 
+    public ParticleSystem cokeTrail;
+
     public float balance;
     public float strain;
 
@@ -30,6 +32,7 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D _rb;
     private Manager gameManager;
     private CameraController cameraController;
+    private CharacterAnimations charAnim;
 
     private bool failShake;
     private bool difficultyIncreased;
@@ -39,10 +42,12 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
+        charAnim = GetComponent<CharacterAnimations>();
         gameManager = FindObjectOfType<Manager>().GetComponent<Manager>();
         cameraController = FindObjectOfType<CameraController>().GetComponent<CameraController>();
         maxStrain = startStrain;
         maxBalance = startBalance;
+        cokeTrail.enableEmission = false; 
     }
 
     // Update is called once per frame
@@ -56,6 +61,7 @@ public class PlayerController : MonoBehaviour
 
         if (gameManager.gameOver) {
             Debug.Log("YOU LOSE");
+            charAnim.Fall();
             if (!failShake)
             {
                 FindObjectOfType<CameraController>().StandardCameraShake();
@@ -81,12 +87,11 @@ public class PlayerController : MonoBehaviour
         playerInfo.knealing |= Input.GetKey(KeyCode.S) && !Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.D);
 
         if (Input.GetKeyDown(KeyCode.W))
-        {
-            //TODO: Taunt sounds and graphics shows up
-        }
+            Taunt();
 
         if (playerInfo.leaningFwd)
             LeanFwd();
+
         if (playerInfo.leaningBwd)
             LeanBwd();
         if (playerInfo.knealing)
@@ -106,13 +111,17 @@ public class PlayerController : MonoBehaviour
 
         oldPosition = transform.position;
 
-        if (gameManager.gameOver) return;
+        if (gameManager.gameOver) 
+        {
+            cokeTrail.enableEmission = false;
+            return; 
+        }
         CalculateDifficulty();
     }
 
     private void LeanFwd()
     {
-        Debug.Log("Leaning forward");
+        charAnim.LeanFwd();
         speed = speed + Time.deltaTime + playerInfo.leanSpeed;
         strain -= 0.02f; //Might want to put a variable on this
         balance -= 0.01f;
@@ -120,7 +129,7 @@ public class PlayerController : MonoBehaviour
 
     private void LeanBwd()
     {
-        Debug.Log("Leaning backwards");
+        charAnim.LeanBwd();
         speed -= 0.03f;
         strain += 0.01f;
 
@@ -135,20 +144,25 @@ public class PlayerController : MonoBehaviour
 
     private void Kneal()
     {
-        Debug.Log("Knealing");
         speed = speed + Time.deltaTime + playerInfo.kneelSpeed * 2;
         strain += .05f;
         balance += .05f;
+        charAnim.Kneeling();
     }
 
     private void Stand()
     {
-        Debug.Log("Standing");
         speed = speed + Time.deltaTime;
         balance -= 0.01f;
+        charAnim.Standing();
 
         if (strain > 0)
             strain -= 0.02f;
+    }
+
+    private void Taunt()
+    {
+        //TODO: Taunt sounds and graphics shows up
     }
 
     private void CalculateDifficulty()
@@ -158,6 +172,7 @@ public class PlayerController : MonoBehaviour
             maxBalance = diffBalance;
             maxStrain = diffStrain;
             cameraController.ShakeCamera(diffShake);
+            cokeTrail.enableEmission = true;
         }
         if(speed > 200)
         {
