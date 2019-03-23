@@ -356,3 +356,7 @@
 /Users/simonlaursen/Documents/CGJ_Spring2019/CreateGameJam_2019_Spring/HighSpeedSkating/obj/Debug/Assembly-CSharp.csproj.CopyComplete
 /Users/simonlaursen/Documents/CGJ_Spring2019/CreateGameJam_2019_Spring/HighSpeedSkating/obj/Debug/Assembly-CSharp.dll
 /Users/simonlaursen/Documents/CGJ_Spring2019/CreateGameJam_2019_Spring/HighSpeedSkating/obj/Debug/Assembly-CSharp.pdb
+/Users/simonlaursen/Documents/CGJ_Spring2019/CreateGameJam_2019_Spring/HighSpeedSkating/Temp/bin/Debug/Unity.Postprocessing.Editor.dll
+/Users/simonlaursen/Documents/CGJ_Spring2019/CreateGameJam_2019_Spring/HighSpeedSkating/Temp/bin/Debug/Unity.Postprocessing.Runtime.dll
+/Users/simonlaursen/Documents/CGJ_Spring2019/CreateGameJam_2019_Spring/HighSpeedSkating/Temp/bin/Debug/Unity.Postprocessing.Editor.pdb
+/Users/simonlaursen/Documents/CGJ_Spring2019/CreateGameJam_2019_Spring/HighSpeedSkating/Temp/bin/Debug/Unity.Postprocessing.Runtime.pdb

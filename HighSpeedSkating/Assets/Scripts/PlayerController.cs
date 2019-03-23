@@ -14,35 +14,37 @@ public class PlayerController : MonoBehaviour
     public float maxStrain; 
 
     private Rigidbody2D _rb;
+    private Manager gameManager;
 
-    private bool fellOff;
-    private bool test;
+    private bool failShake;
 
     // Start is called before the first frame update
     void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
+        gameManager = FindObjectOfType<Manager>().GetComponent<Manager>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (fellOff) {
+
+        if (gameManager.gameOver) {
             Debug.Log("YOU LOSE");
-            if (!test)
+            if (!failShake)
             {
                 FindObjectOfType<CameraController>().StandardCameraShake();
-                test = true;
+                failShake = true;
             }
             return; 
          }
 
         //Falling off? Recode later (this is just a test)
         if (balance >= maxBalance || balance <= -maxBalance)
-            fellOff = true;
+            gameManager.gameOver = true;
 
         if(strain >= maxStrain)
-            fellOff = true;
+            gameManager.gameOver = true;
 
         //Left Input
         playerInfo.leaningBwd |= Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.D) && !Input.GetKey(KeyCode.S);
@@ -96,7 +98,7 @@ public class PlayerController : MonoBehaviour
     private void Kneal()
     {
         Debug.Log("Knealing");
-        speed = speed + Time.deltaTime * playerInfo.leanSpeed;
+        speed = speed + Time.deltaTime + playerInfo.kneelSpeed;
         strain += .05f;
         balance += .05f;
     }
@@ -116,6 +118,7 @@ public class PlayerController : MonoBehaviour
     {
         public bool leaningFwd, leaningBwd, knealing, standing;
         public float leanSpeed;
+        public float kneelSpeed;
 
         public void Reset()
         {
