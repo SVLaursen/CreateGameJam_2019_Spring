@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour
     private Manager gameManager;
 
     private bool failShake;
+    private Vector2 oldPosition;
 
     // Start is called before the first frame update
     void Start()
@@ -28,6 +29,11 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (gameManager.paused)
+        {
+            transform.position = oldPosition;
+            return;
+        }
 
         if (gameManager.gameOver) {
             Debug.Log("YOU LOSE");
@@ -70,6 +76,8 @@ public class PlayerController : MonoBehaviour
 
         if (!Input.anyKey)
             playerInfo.Reset();
+
+        oldPosition = transform.position;
     }
 
     private void LeanFwd()
