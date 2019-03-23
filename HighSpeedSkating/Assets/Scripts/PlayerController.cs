@@ -84,7 +84,7 @@ public class PlayerController : MonoBehaviour
         playerInfo.leaningFwd |= Input.GetKey(KeyCode.D) && !Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.S);
 
         //Down Input
-        playerInfo.knealing |= Input.GetKey(KeyCode.S) && !Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.D);
+        playerInfo.kneeling |= Input.GetKey(KeyCode.S) && !Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.D);
 
         if (Input.GetKeyDown(KeyCode.W))
             Taunt();
@@ -94,7 +94,7 @@ public class PlayerController : MonoBehaviour
 
         if (playerInfo.leaningBwd)
             LeanBwd();
-        if (playerInfo.knealing)
+        if (playerInfo.kneeling)
             Kneal();
         else
             Stand();
@@ -191,7 +191,7 @@ public class PlayerController : MonoBehaviour
     [System.Serializable]
     public struct PlayerInfo
     {
-        public bool leaningFwd, leaningBwd, knealing, standing;
+        public bool leaningFwd, leaningBwd, kneeling, standing;
         public float leanSpeed;
         public float kneelSpeed;
 
@@ -199,7 +199,7 @@ public class PlayerController : MonoBehaviour
         {
             leaningBwd = false;
             leaningFwd = false;
-            knealing = false;
+            kneeling = false;
             standing = true;
         }
     }

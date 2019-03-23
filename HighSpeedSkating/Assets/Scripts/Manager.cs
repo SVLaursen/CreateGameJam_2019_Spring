@@ -34,6 +34,9 @@ public class Manager : MonoBehaviour
     public bool gameOver;
     public bool paused;
 
+    [Header("BackgroundManager")]
+    public float scrollSpeed = -4f;
+
 
     // Start is called before the first frame update
     void Start()
