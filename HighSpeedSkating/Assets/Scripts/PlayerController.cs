@@ -8,6 +8,8 @@ public class PlayerController : MonoBehaviour
     public PlayerInfo playerInfo;
 
     public ParticleSystem cokeTrail;
+    public GameObject smokeTrail;
+    public GameObject exclamation;
 
     public float balance;
     public float strain;
@@ -36,6 +38,7 @@ public class PlayerController : MonoBehaviour
 
     private bool failShake;
     private bool difficultyIncreased;
+    private bool insulting;
     private Vector2 oldPosition;
 
     // Start is called before the first frame update
@@ -47,7 +50,9 @@ public class PlayerController : MonoBehaviour
         cameraController = FindObjectOfType<CameraController>().GetComponent<CameraController>();
         maxStrain = startStrain;
         maxBalance = startBalance;
-        cokeTrail.enableEmission = false; 
+        cokeTrail.enableEmission = false;
+        smokeTrail.SetActive(false);
+        exclamation.SetActive(false);
     }
 
     // Update is called once per frame
@@ -121,7 +126,6 @@ public class PlayerController : MonoBehaviour
 
     private void LeanFwd()
     {
-        charAnim.LeanFwd();
         speed = speed + Time.deltaTime + playerInfo.leanSpeed;
         strain -= 0.02f; //Might want to put a variable on this
         balance -= 0.01f;
@@ -129,7 +133,6 @@ public class PlayerController : MonoBehaviour
 
     private void LeanBwd()
     {
-        charAnim.LeanBwd();
         speed -= 0.03f;
         strain += 0.01f;
 
@@ -147,14 +150,12 @@ public class PlayerController : MonoBehaviour
         speed = speed + Time.deltaTime + playerInfo.kneelSpeed * 2;
         strain += .05f;
         balance += .05f;
-        charAnim.Kneeling();
     }
 
     private void Stand()
     {
         speed = speed + Time.deltaTime;
         balance -= 0.01f;
-        charAnim.Standing();
 
         if (strain > 0)
             strain -= 0.02f;
@@ -163,10 +164,14 @@ public class PlayerController : MonoBehaviour
     private void Taunt()
     {
         //TODO: Taunt sounds and graphics shows up
+        if (insulting) return;
+        StartCoroutine(Insult());
     }
 
     private void CalculateDifficulty()
     {
+        if (speed > 20)
+            smokeTrail.SetActive(true);
         if(speed > 100 )
         {
             maxBalance = diffBalance;
@@ -186,6 +191,16 @@ public class PlayerController : MonoBehaviour
             maxBalance = deathBalance;
             cameraController.ShakeCamera(deathShake);
         }
+    }
+
+    private IEnumerator Insult()
+    {
+        insulting = true;
+        exclamation.SetActive(true);
+        AudioManager.instance.PlaySound2D("insults");
+        yield return new WaitForSeconds(1.5f);
+        exclamation.SetActive(false);
+        insulting = false;
     }
 
     [System.Serializable]

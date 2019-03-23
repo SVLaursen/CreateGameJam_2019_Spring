@@ -1,0 +1,881 @@
+fileFormatVersion: 2
+guid: 4b62ccce642114e839fda87d00b058a3
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Kneel Down_0
+    21300002: Kneel Down_1
+    21300004: Kneel Down_2
+    21300006: Kneel Down_3
+    21300008: Kneel Down_4
+    21300010: Kneel Down_5
+    21300012: Kneel Down_6
+    21300014: Kneel Down_7
+    21300016: Kneel Down_8
+    21300018: Kneel Down_9
+    21300020: Kneel Down_10
+    21300022: Kneel Down_11
+    21300024: Kneel Down_12
+    21300026: Kneel Down_13
+    21300028: Kneel Down_14
+    21300030: Kneel Down_15
+    21300032: Kneel Down_16
+    21300034: Kneel Down_17
+    21300036: Kneel Down_18
+    21300038: Kneel Down_19
+    21300040: Kneel Down_20
+    21300042: Kneel Down_21
+    21300044: Kneel Down_22
+    21300046: Kneel Down_23
+    21300048: Kneel Down_24
+    21300050: Kneel Down_25
+    21300052: Kneel Down_26
+    21300054: Kneel Down_27
+    21300056: Kneel Down_28
+    21300058: Kneel Down_29
+    21300060: Kneel Down_30
+    21300062: Kneel Down_31
+    21300064: Kneel Down_32
+    21300066: Kneel Down_33
+    21300068: Kneel Down_34
+    21300070: Kneel Down_35
+    21300072: Kneel Down_36
+    21300074: Kneel Down_37
+    21300076: Kneel Down_38
+    21300078: Kneel Down_39
+    21300080: Kneel Down_40
+    21300082: Kneel Down_41
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Kneel Down_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7845
+        width: 1361
+        height: 1569
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8ca956415384fd0985371a7a0d1f87
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kneel Down_1
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 7845
+        width: 1361
+        height: 1569
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 098b6f87956fb47f183b21878162ceb0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kneel Down_2
+      rect:
+        serializedVersion: 2
+        x: 2722
+        y: 7845
+        width: 1361
+        height: 1569
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e40f564d64b9f4bae9502cf4e20123f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kneel Down_3
+      rect:
+        serializedVersion: 2
+        x: 4083
+        y: 7845
+        width: 1361
+        height: 1569
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e06a7cdd6c1c4239a16f0c35d09e7c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kneel Down_4
+      rect:
+        serializedVersion: 2
+        x: 5444
+        y: 7845
+        width: 1361
+        height: 1569
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d10d4980dd94b598c56bee5230d0d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kneel Down_5
+      rect:
+        serializedVersion: 2
+        x: 6805
+        y: 7845
+        width: 1361
+        height: 1569
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afdf9a0a43bb8464e9ee5554ff3efbba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kneel Down_6
+      rect:
+        serializedVersion: 2
+        x: 8166
+        y: 7845
+        width: 1361
+        height: 1569
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1b4cad7713a4e1cb4cb19b87fc9736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kneel Down_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6276
+        width: 1361
+        height: 1569
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047e008056f9d48ef91ffe03969ccf3f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kneel Down_8
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 6276
+        width: 1361
+        height: 1569
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aaeb120b679e48dc945483ae6a661b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kneel Down_9
+      rect:
+        serializedVersion: 2
+        x: 2722
+        y: 6276
+        width: 1361
+        height: 1569
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b77d9cf9840c546039cffc9640f6a2b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kneel Down_10
+      rect:
+        serializedVersion: 2
+        x: 4083
+        y: 6276
+        width: 1361
+        height: 1569
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d5d279f4695649b1a35be9ef769c1b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kneel Down_11
+      rect:
+        serializedVersion: 2
+        x: 5444
+        y: 6276
+        width: 1361
+        height: 1569
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c98c0aaccefc54d44b3573f16a903179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kneel Down_12
+      rect:
+        serializedVersion: 2
+        x: 6805
+        y: 6276
+        width: 1361
+        height: 1569
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bdebdc88e10f42829533cfea5e8785c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kneel Down_13
+      rect:
+        serializedVersion: 2
+        x: 8166
+        y: 6276
+        width: 1361
+        height: 1569
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ffcb41441d3d49548684ff95f7e153e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kneel Down_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4707
+        width: 1361
+        height: 1569
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd9e450508be4f30814796e95a9b030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kneel Down_15
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 4707
+        width: 1361
+        height: 1569
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d6c297519424e7db255872852b403c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kneel Down_16
+      rect:
+        serializedVersion: 2
+        x: 2722
+        y: 4707
+        width: 1361
+        height: 1569
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ab5029b249e1489db3879042076f45c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kneel Down_17
+      rect:
+        serializedVersion: 2
+        x: 4083
+        y: 4707
+        width: 1361
+        height: 1569
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e97a47f851b43a4b51630990b094a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kneel Down_18
+      rect:
+        serializedVersion: 2
+        x: 5444
+        y: 4707
+        width: 1361
+        height: 1569
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8d16b04b4a949bba4141c23edaacc9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kneel Down_19
+      rect:
+        serializedVersion: 2
+        x: 6805
+        y: 4707
+        width: 1361
+        height: 1569
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88753d000428438bb3bf1041c85a5e2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kneel Down_20
+      rect:
+        serializedVersion: 2
+        x: 8166
+        y: 4707
+        width: 1361
+        height: 1569
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d60c76bd58e2b4a6797e82b2c979d450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kneel Down_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3138
+        width: 1361
+        height: 1569
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e7d22f38be394e889c903d1e796d9f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kneel Down_22
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 3138
+        width: 1361
+        height: 1569
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc0c06c469ba84927ad2253bedd76d8e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kneel Down_23
+      rect:
+        serializedVersion: 2
+        x: 2722
+        y: 3138
+        width: 1361
+        height: 1569
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a5b7fe03c0749429899d4e4b687c48
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kneel Down_24
+      rect:
+        serializedVersion: 2
+        x: 4083
+        y: 3138
+        width: 1361
+        height: 1569
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8919714524c424671944b03671619312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kneel Down_25
+      rect:
+        serializedVersion: 2
+        x: 5444
+        y: 3138
+        width: 1361
+        height: 1569
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b0f6ec75551a4701bceafcdacb3d0d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kneel Down_26
+      rect:
+        serializedVersion: 2
+        x: 6805
+        y: 3138
+        width: 1361
+        height: 1569
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe46074fcbe1e44f885f436250a51a14
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kneel Down_27
+      rect:
+        serializedVersion: 2
+        x: 8166
+        y: 3138
+        width: 1361
+        height: 1569
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39d1de20b0a3d4711a43f9412fc4cabf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kneel Down_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1569
+        width: 1361
+        height: 1569
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3ffca2060c7463e865e7e0b989fa29
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kneel Down_29
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 1569
+        width: 1361
+        height: 1569
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e74aab68ffc43b29e1a694e11b8e3b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kneel Down_30
+      rect:
+        serializedVersion: 2
+        x: 2722
+        y: 1569
+        width: 1361
+        height: 1569
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b9a8d5f00754c6182388478392ee48
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kneel Down_31
+      rect:
+        serializedVersion: 2
+        x: 4083
+        y: 1569
+        width: 1361
+        height: 1569
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484a033cc19804828a918e21f709424f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kneel Down_32
+      rect:
+        serializedVersion: 2
+        x: 5444
+        y: 1569
+        width: 1361
+        height: 1569
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a345c2882580341df8676f38b988d331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kneel Down_33
+      rect:
+        serializedVersion: 2
+        x: 6805
+        y: 1569
+        width: 1361
+        height: 1569
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d94ceb594424949caa6bf381b4b56ed5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kneel Down_34
+      rect:
+        serializedVersion: 2
+        x: 8166
+        y: 1569
+        width: 1361
+        height: 1569
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba0c455588b34ed2bc356c5c476a305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kneel Down_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1361
+        height: 1569
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f9dae72c6a764ac7a6ffb332855223d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kneel Down_36
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 0
+        width: 1361
+        height: 1569
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a9e5c6d6d4b843008d7e88dc760e4d0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: e424e1a6c9b064c669d86fac2108403a
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

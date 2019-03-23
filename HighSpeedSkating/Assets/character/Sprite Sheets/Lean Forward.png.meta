@@ -1,0 +1,901 @@
+fileFormatVersion: 2
+guid: d046804cd34b24eb6ae7a3db356a02ed
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Lean Forward_0
+    21300002: Lean Forward_1
+    21300004: Lean Forward_2
+    21300006: Lean Forward_3
+    21300008: Lean Forward_4
+    21300010: Lean Forward_5
+    21300012: Lean Forward_6
+    21300014: Lean Forward_7
+    21300016: Lean Forward_8
+    21300018: Lean Forward_9
+    21300020: Lean Forward_10
+    21300022: Lean Forward_11
+    21300024: Lean Forward_12
+    21300026: Lean Forward_13
+    21300028: Lean Forward_14
+    21300030: Lean Forward_15
+    21300032: Lean Forward_16
+    21300034: Lean Forward_17
+    21300036: Lean Forward_18
+    21300038: Lean Forward_19
+    21300040: Lean Forward_20
+    21300042: Lean Forward_21
+    21300044: Lean Forward_22
+    21300046: Lean Forward_23
+    21300048: Lean Forward_24
+    21300050: Lean Forward_25
+    21300052: Lean Forward_26
+    21300054: Lean Forward_27
+    21300056: Lean Forward_28
+    21300058: Lean Forward_29
+    21300060: Lean Forward_30
+    21300062: Lean Forward_31
+    21300064: Lean Forward_32
+    21300066: Lean Forward_33
+    21300068: Lean Forward_34
+    21300070: Lean Forward_35
+    21300072: Lean Forward_36
+    21300074: Lean Forward_37
+    21300076: Lean Forward_38
+    21300078: Lean Forward_39
+    21300080: Lean Forward_40
+    21300082: Lean Forward_41
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lean Forward_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9640
+        width: 1470
+        height: 1928
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3363867719e6d4423aefc07ba58a7811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Forward_1
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 9640
+        width: 1470
+        height: 1928
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49caf295cf13a4d6eb1e545724ee5055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Forward_2
+      rect:
+        serializedVersion: 2
+        x: 2940
+        y: 9640
+        width: 1470
+        height: 1928
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06e47e81dac18431d9203fdd4127bc10
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Forward_3
+      rect:
+        serializedVersion: 2
+        x: 4410
+        y: 9640
+        width: 1470
+        height: 1928
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675b377e8bc514f98a91d6949da28ac6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Forward_4
+      rect:
+        serializedVersion: 2
+        x: 5880
+        y: 9640
+        width: 1470
+        height: 1928
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 051c66494d74340d480166682e634601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Forward_5
+      rect:
+        serializedVersion: 2
+        x: 7350
+        y: 9640
+        width: 1470
+        height: 1928
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed3722c41ea34f789361cf9dafa6bda
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Forward_6
+      rect:
+        serializedVersion: 2
+        x: 8820
+        y: 9640
+        width: 1470
+        height: 1928
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9987e214f52da4891b40c73035fb857a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Forward_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7712
+        width: 1470
+        height: 1928
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b6ea1dd0ae247af860a8bd19e5e7c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Forward_8
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 7712
+        width: 1470
+        height: 1928
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca77f567e5c1f4785be30766c796438a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Forward_9
+      rect:
+        serializedVersion: 2
+        x: 2940
+        y: 7712
+        width: 1470
+        height: 1928
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3074536786504838825594feb3510d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Forward_10
+      rect:
+        serializedVersion: 2
+        x: 4410
+        y: 7712
+        width: 1470
+        height: 1928
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ba606115cd641e5821e73749b74dfe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Forward_11
+      rect:
+        serializedVersion: 2
+        x: 5880
+        y: 7712
+        width: 1470
+        height: 1928
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef2bb0b0aa27a462fa71dcf551560c6c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Forward_12
+      rect:
+        serializedVersion: 2
+        x: 7350
+        y: 7712
+        width: 1470
+        height: 1928
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c14d06c04e17d49309dcc32155c98171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Forward_13
+      rect:
+        serializedVersion: 2
+        x: 8820
+        y: 7712
+        width: 1470
+        height: 1928
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3041f8615d738495eac58c684da606d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Forward_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5784
+        width: 1470
+        height: 1928
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f4b4516b05f44a885cce43c3ae5a6b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Forward_15
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 5784
+        width: 1470
+        height: 1928
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87087007750624f3a82a14af32bdccef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Forward_16
+      rect:
+        serializedVersion: 2
+        x: 2940
+        y: 5784
+        width: 1470
+        height: 1928
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a11dbf2b2aee4dc19ef2f36e2633314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Forward_17
+      rect:
+        serializedVersion: 2
+        x: 4410
+        y: 5784
+        width: 1470
+        height: 1928
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b81d76774994528b328f21b14923d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Forward_18
+      rect:
+        serializedVersion: 2
+        x: 5880
+        y: 5784
+        width: 1470
+        height: 1928
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483ddb2fd6f4a45f39e14ee45b3617ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Forward_19
+      rect:
+        serializedVersion: 2
+        x: 7350
+        y: 5784
+        width: 1470
+        height: 1928
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ce3c8d403bb4570a6f6598cf8078d0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Forward_20
+      rect:
+        serializedVersion: 2
+        x: 8820
+        y: 5784
+        width: 1470
+        height: 1928
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e65b08bf0524272a22aab001014ce6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Forward_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3856
+        width: 1470
+        height: 1928
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636b103a6444b430ba9106991591ecb8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Forward_22
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 3856
+        width: 1470
+        height: 1928
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e41221bcb1154d49a04e3974349f936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Forward_23
+      rect:
+        serializedVersion: 2
+        x: 2940
+        y: 3856
+        width: 1470
+        height: 1928
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69e9f6d02a574de7ae46115f7bba947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Forward_24
+      rect:
+        serializedVersion: 2
+        x: 4410
+        y: 3856
+        width: 1470
+        height: 1928
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed103b94a98e44df8db20572e9d4474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Forward_25
+      rect:
+        serializedVersion: 2
+        x: 5880
+        y: 3856
+        width: 1470
+        height: 1928
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6edd2becbae74335a61b23e776e6e00
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Forward_26
+      rect:
+        serializedVersion: 2
+        x: 7350
+        y: 3856
+        width: 1470
+        height: 1928
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc81d18e9cbc414984f38f45e812a24
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Forward_27
+      rect:
+        serializedVersion: 2
+        x: 8820
+        y: 3856
+        width: 1470
+        height: 1928
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8160dd22f14364f89ac4f032f76793b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Forward_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1928
+        width: 1470
+        height: 1928
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6047169d44c894e7a9153b9a2fb9bb95
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Forward_29
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 1928
+        width: 1470
+        height: 1928
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d03be390bdec489fbd26c58d0ea11be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Forward_30
+      rect:
+        serializedVersion: 2
+        x: 2940
+        y: 1928
+        width: 1470
+        height: 1928
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6bad80f033b49458a0bce893645358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Forward_31
+      rect:
+        serializedVersion: 2
+        x: 4410
+        y: 1928
+        width: 1470
+        height: 1928
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69cc077aabbd4aeea6f253415a76124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Forward_32
+      rect:
+        serializedVersion: 2
+        x: 5880
+        y: 1928
+        width: 1470
+        height: 1928
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e23aba751724bdcad9de1cf1664690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Forward_33
+      rect:
+        serializedVersion: 2
+        x: 7350
+        y: 1928
+        width: 1470
+        height: 1928
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f72a536858043d683dcb1e71e3c396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Forward_34
+      rect:
+        serializedVersion: 2
+        x: 8820
+        y: 1928
+        width: 1470
+        height: 1928
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a991ec1e20521480a8fdbf547a6cdde8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Forward_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1470
+        height: 1928
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691bae91021674c1197a39e0a70dbbff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Forward_36
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 0
+        width: 1470
+        height: 1928
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97559ac05d0e404d86f9202cdd4d3e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Forward_39
+      rect:
+        serializedVersion: 2
+        x: 5880
+        y: 0
+        width: 1470
+        height: 1928
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef9ac5ed2518043fa992762205464743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 76e79b16ebb71434680090f87a8752c0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

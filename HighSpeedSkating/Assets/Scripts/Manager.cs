@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class Manager : MonoBehaviour
 {
     private PlayerController player;
+    private AudioManager audioManager;
 
     private Vector2 startPosition;
     private Vector2 currentPosition;
@@ -42,6 +43,7 @@ public class Manager : MonoBehaviour
     void Start()
     {
         player = FindObjectOfType<PlayerController>().GetComponent<PlayerController>();
+        audioManager = FindObjectOfType<AudioManager>().GetComponent<AudioManager>();
         startPosition = player.transform.position;
 
         balanceSlider.maxValue = player.maxBalance;
@@ -49,6 +51,8 @@ public class Manager : MonoBehaviour
 
         strainSlider.maxValue = player.maxStrain;
         strainSlider.minValue = 0;
+
+        audioManager.PlaySound2D("wind");
 
         if (pauseScreen != null)
             pauseScreen.enabled = false;

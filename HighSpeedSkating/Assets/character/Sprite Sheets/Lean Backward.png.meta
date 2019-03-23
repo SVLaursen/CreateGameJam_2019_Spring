@@ -1,0 +1,879 @@
+fileFormatVersion: 2
+guid: e2c3399265c534ad89d0579bb059a9c2
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Lean Backward_0
+    21300002: Lean Backward_1
+    21300004: Lean Backward_2
+    21300006: Lean Backward_3
+    21300008: Lean Backward_4
+    21300010: Lean Backward_5
+    21300012: Lean Backward_6
+    21300014: Lean Backward_7
+    21300016: Lean Backward_8
+    21300018: Lean Backward_9
+    21300020: Lean Backward_10
+    21300022: Lean Backward_11
+    21300024: Lean Backward_12
+    21300026: Lean Backward_13
+    21300028: Lean Backward_14
+    21300030: Lean Backward_15
+    21300032: Lean Backward_16
+    21300034: Lean Backward_17
+    21300036: Lean Backward_18
+    21300038: Lean Backward_19
+    21300040: Lean Backward_20
+    21300042: Lean Backward_21
+    21300044: Lean Backward_22
+    21300046: Lean Backward_23
+    21300048: Lean Backward_24
+    21300050: Lean Backward_25
+    21300052: Lean Backward_26
+    21300054: Lean Backward_27
+    21300056: Lean Backward_28
+    21300058: Lean Backward_29
+    21300060: Lean Backward_30
+    21300062: Lean Backward_31
+    21300064: Lean Backward_32
+    21300066: Lean Backward_33
+    21300068: Lean Backward_34
+    21300070: Lean Backward_35
+    21300072: Lean Backward_36
+    21300074: Lean Backward_37
+    21300076: Lean Backward_38
+    21300078: Lean Backward_39
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lean Backward_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8368
+        width: 1293
+        height: 2092
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5470923e8c3d246e1956940d649253a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Backward_1
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 8368
+        width: 1293
+        height: 2092
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a6f10dbe659b47eb95fba20cba3644a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Backward_2
+      rect:
+        serializedVersion: 2
+        x: 2586
+        y: 8368
+        width: 1293
+        height: 2092
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab603c63397d422f9dc9475c845cd1b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Backward_3
+      rect:
+        serializedVersion: 2
+        x: 3879
+        y: 8368
+        width: 1293
+        height: 2092
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad562ea5bf3ff4b95be4043e924c8d58
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Backward_4
+      rect:
+        serializedVersion: 2
+        x: 5172
+        y: 8368
+        width: 1293
+        height: 2092
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15118437968534a5ba45c080c93de0f9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Backward_5
+      rect:
+        serializedVersion: 2
+        x: 6465
+        y: 8368
+        width: 1293
+        height: 2092
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52dd9f1f35f5a48af9cd411389eebca2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Backward_6
+      rect:
+        serializedVersion: 2
+        x: 7758
+        y: 8368
+        width: 1293
+        height: 2092
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35dab01908dce4ab693b7c39cfb7397c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Backward_7
+      rect:
+        serializedVersion: 2
+        x: 9051
+        y: 8368
+        width: 1293
+        height: 2092
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fdb28cc11bfa46d6be7072f21bf57bf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Backward_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6276
+        width: 1293
+        height: 2092
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb24caac3eba946079f3dd34e14f9e0e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Backward_9
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 6276
+        width: 1293
+        height: 2092
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033e5c39c28d84a39a07400e5cd0e0d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Backward_10
+      rect:
+        serializedVersion: 2
+        x: 2586
+        y: 6276
+        width: 1293
+        height: 2092
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4cd77cd258d4af1b030bf6c23f31cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Backward_11
+      rect:
+        serializedVersion: 2
+        x: 3879
+        y: 6276
+        width: 1293
+        height: 2092
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c4ba37e2eecc4f3593e3ef892bbac2e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Backward_12
+      rect:
+        serializedVersion: 2
+        x: 5172
+        y: 6276
+        width: 1293
+        height: 2092
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da4d66c5648024e299912191b8dd32d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Backward_13
+      rect:
+        serializedVersion: 2
+        x: 6465
+        y: 6276
+        width: 1293
+        height: 2092
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ee080452b3346ac9edf91eaf8bcfd9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Backward_14
+      rect:
+        serializedVersion: 2
+        x: 7758
+        y: 6276
+        width: 1293
+        height: 2092
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb884ed6c26843a4a1b6ce63b219031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Backward_15
+      rect:
+        serializedVersion: 2
+        x: 9051
+        y: 6276
+        width: 1293
+        height: 2092
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a239f615990b4074ae0e346d15439b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Backward_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4184
+        width: 1293
+        height: 2092
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c1c427d4152c42f792e527de933064a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Backward_17
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 4184
+        width: 1293
+        height: 2092
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f029900f351f4c85920ef9a3d5fe9eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Backward_18
+      rect:
+        serializedVersion: 2
+        x: 2586
+        y: 4184
+        width: 1293
+        height: 2092
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4405b7b20729946a6836a36aae23f900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Backward_19
+      rect:
+        serializedVersion: 2
+        x: 3879
+        y: 4184
+        width: 1293
+        height: 2092
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd28a5917b2143b082d24b30f9f2849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Backward_20
+      rect:
+        serializedVersion: 2
+        x: 5172
+        y: 4184
+        width: 1293
+        height: 2092
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e47f4c92074b4fd6bfe3e584c087340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Backward_21
+      rect:
+        serializedVersion: 2
+        x: 6465
+        y: 4184
+        width: 1293
+        height: 2092
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e7c229a673949e4ac98c0d1e9f4a51
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Backward_22
+      rect:
+        serializedVersion: 2
+        x: 7758
+        y: 4184
+        width: 1293
+        height: 2092
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2f71013eca34364bb08e531d5c86af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Backward_23
+      rect:
+        serializedVersion: 2
+        x: 9051
+        y: 4184
+        width: 1293
+        height: 2092
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c47e6716b6a7c4ef38b98d4debdd3130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Backward_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2092
+        width: 1293
+        height: 2092
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 418ad3097bbb94e1383ec47bab823132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Backward_25
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 2092
+        width: 1293
+        height: 2092
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5374f337c05434ea69db1acbe7a218c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Backward_26
+      rect:
+        serializedVersion: 2
+        x: 2586
+        y: 2092
+        width: 1293
+        height: 2092
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92894822440d142358821e00ee787ab7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Backward_27
+      rect:
+        serializedVersion: 2
+        x: 3879
+        y: 2092
+        width: 1293
+        height: 2092
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4dd27157a9d54c65a9f97904938f5cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Backward_28
+      rect:
+        serializedVersion: 2
+        x: 5172
+        y: 2092
+        width: 1293
+        height: 2092
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb3036257bf44ed88eeae330890ecda
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Backward_29
+      rect:
+        serializedVersion: 2
+        x: 6465
+        y: 2092
+        width: 1293
+        height: 2092
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3613f5b87dec442f4b9f9d382efb3dc0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Backward_30
+      rect:
+        serializedVersion: 2
+        x: 7758
+        y: 2092
+        width: 1293
+        height: 2092
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e05cefdef4784ab4a9ad8a23ae8d84d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Backward_31
+      rect:
+        serializedVersion: 2
+        x: 9051
+        y: 2092
+        width: 1293
+        height: 2092
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a4562744a984b6e98354ce9a35b768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Backward_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1293
+        height: 2092
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79cfe1b6d4a89403f99f25afde64aeb9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Backward_33
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 0
+        width: 1293
+        height: 2092
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 425563eba87804f568c4d76126b15aae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Backward_34
+      rect:
+        serializedVersion: 2
+        x: 2586
+        y: 0
+        width: 1293
+        height: 2092
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04593f861640e4f148d24d758752743a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Backward_35
+      rect:
+        serializedVersion: 2
+        x: 3879
+        y: 0
+        width: 1293
+        height: 2092
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5c12bc557d84516af35b0a1f13e4c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lean Backward_36
+      rect:
+        serializedVersion: 2
+        x: 5172
+        y: 0
+        width: 1293
+        height: 2092
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f0caf4d28294422b9f23f30c2a0ac5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 12aa54680924d4eae8b43f023a79a619
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
