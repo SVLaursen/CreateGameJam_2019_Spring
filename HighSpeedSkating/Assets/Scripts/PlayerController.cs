@@ -10,13 +10,29 @@ public class PlayerController : MonoBehaviour
     public float balance;
     public float strain;
 
-    public float maxBalance;
-    public float maxStrain; 
+    [HideInInspector] public float maxBalance;
+    [HideInInspector] public float maxStrain;
+
+    [Header("Balance Stuff")]
+    public float startBalance;
+    public float startStrain;
+    public float diffBalance;
+    public float diffStrain;
+    public float hardBalance;
+    public float hardStrain;
+    public float deathBalance;
+    public float deathStrain;
+
+    public CameraShaker.Properties diffShake;
+    public CameraShaker.Properties hardShake;
+    public CameraShaker.Properties deathShake;
 
     private Rigidbody2D _rb;
     private Manager gameManager;
+    private CameraController cameraController;
 
     private bool failShake;
+    private bool difficultyIncreased;
     private Vector2 oldPosition;
 
     // Start is called before the first frame update
@@ -24,6 +40,9 @@ public class PlayerController : MonoBehaviour
     {
         _rb = GetComponent<Rigidbody2D>();
         gameManager = FindObjectOfType<Manager>().GetComponent<Manager>();
+        cameraController = FindObjectOfType<CameraController>().GetComponent<CameraController>();
+        maxStrain = startStrain;
+        maxBalance = startBalance;
     }
 
     // Update is called once per frame
@@ -61,6 +80,11 @@ public class PlayerController : MonoBehaviour
         //Down Input
         playerInfo.knealing |= Input.GetKey(KeyCode.S) && !Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.D);
 
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            //TODO: Taunt sounds and graphics shows up
+        }
+
         if (playerInfo.leaningFwd)
             LeanFwd();
         if (playerInfo.leaningBwd)
@@ -74,24 +98,30 @@ public class PlayerController : MonoBehaviour
         _rb.AddForce(boardSpeed);
         //Debug.Log(_rb.velocity);
 
+        if (strain < 0)
+            strain = 0;
+
         if (!Input.anyKey)
             playerInfo.Reset();
 
         oldPosition = transform.position;
+
+        if (gameManager.gameOver) return;
+        CalculateDifficulty();
     }
 
     private void LeanFwd()
     {
         Debug.Log("Leaning forward");
         speed = speed + Time.deltaTime + playerInfo.leanSpeed;
-        strain += 0.01f; //Might want to put a variable on this
+        strain -= 0.02f; //Might want to put a variable on this
         balance -= 0.01f;
     }
 
     private void LeanBwd()
     {
         Debug.Log("Leaning backwards");
-        speed = 0;
+        speed -= 0.03f;
         strain += 0.01f;
 
         if(balance != 0)
@@ -99,14 +129,14 @@ public class PlayerController : MonoBehaviour
             if (balance < 0)
                 balance += 0.1f;
             if (balance > 0)
-                balance += 0.1f;
+                balance -= 0.1f;
         }
     }
 
     private void Kneal()
     {
         Debug.Log("Knealing");
-        speed = speed + Time.deltaTime + playerInfo.kneelSpeed;
+        speed = speed + Time.deltaTime + playerInfo.kneelSpeed * 2;
         strain += .05f;
         balance += .05f;
     }
@@ -118,7 +148,29 @@ public class PlayerController : MonoBehaviour
         balance -= 0.01f;
 
         if (strain > 0)
-            strain -= 0.01f;
+            strain -= 0.02f;
+    }
+
+    private void CalculateDifficulty()
+    {
+        if(speed > 100 )
+        {
+            maxBalance = diffBalance;
+            maxStrain = diffStrain;
+            cameraController.ShakeCamera(diffShake);
+        }
+        if(speed > 200)
+        {
+            maxBalance = hardBalance;
+            maxStrain = hardStrain;
+            cameraController.ShakeCamera(hardShake);
+        }
+        if(speed > 300)
+        {
+            maxStrain = deathStrain;
+            maxBalance = deathBalance;
+            cameraController.ShakeCamera(deathShake);
+        }
     }
 
     [System.Serializable]
